@@ -76,8 +76,6 @@ public class IconsFeature {
 
 	public void addIconsToMenu(StructuredMenuHolder holder,
 			String iconMenuString, MindMapController controller) {
-		// não precisa incluir o feeder, pois o metodo so eh chamado dentros de
-		// aspectos
 		JMenu iconMenu = holder.addMenu(
 				new JMenu(controller.getText("icon_menu")), iconMenuString
 						+ "/.");
